@@ -5,8 +5,9 @@ import task
 class testCase(unittest.TestCase):
 
     def test1(self):
-        expected = 'Hello World"
+        expected = "Hello World"
         self.assertEqual(task.my_func(), expected())
+
 
 if __name__ == '__main__':
     unittest.main()
